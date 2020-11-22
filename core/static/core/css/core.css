@@ -1,0 +1,40 @@
+/* font */
+.font{
+    font-family: 'Xanh Mono', monospace;
+}
+html,body{
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.text_col{
+    color:#b0e7ec;
+}
+.icon_col{
+    color:#16f14f;
+}
+a.nav-link{
+color: whitesmoke;
+}
+a.nav-link:hover{
+color: black;
+background-color: rgb(128, 235, 185);
+border-radius: 3px;
+}
+a.nav-link.active{
+color: black;
+background-color: rgb(48, 28, 226);
+
+font-weight: bold;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 350px;
+    overflow: auto;
+    }
+.table-wrapper-scroll-y {
+    display: block;
+    }
